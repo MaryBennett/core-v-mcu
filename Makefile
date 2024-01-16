@@ -227,3 +227,7 @@ downloadn:
 downloadg:
 	vivado -mode batch -source emulation/xilinx/tcl/download.tcl -tclargs\
              emulation/core_v_mcu_genesys2.bit xc7k325t_0
+
+download0:
+	/tools/Xilinx/Vivado/2022.2/bin/vivado -mode batch -source emulation/core-v-mcu-nexys/tcl/download_bitstream.tcl\
+	     -tclargs emulation/core_v_mcu_nexys.bit xc7k325t_0
